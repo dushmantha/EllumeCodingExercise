@@ -8,13 +8,47 @@
 import SwiftUI
 
 struct CategoryDetailsScreen: View {
+    
+    @StateObject var categoryDetailsViewModel = CategoryDetailsViewModelImplementation(
+        fetchCategoryDetailsService: FetchCategoryDetailsServiceImplementation()
+    )
+    let selctedCategory : String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            /*
+             // This is for testing
+             List(CategoryDetailsModel.dummyData.contents.quotes, id: \.self){ quote in
+             CategoryDetailsRow(quote: quote)
+             } .navigationTitle(selctedCategory)
+            */
+            
+          //  /*
+            Group{
+                if categoryDetailsViewModel.error != nil {
+                    ErrorView()
+                }  else if categoryDetailsViewModel.quotes == nil {
+                    LoadingView(text: "Loading...")
+                } else if categoryDetailsViewModel.totalQuotes == 0 {
+                    EmptyDataView()
+                } else {
+                    List(categoryDetailsViewModel.quotes!, id: \.self){quote in
+                        CategoryDetailsRow(quote: quote)
+                    }
+                }
+            }.task {
+                await categoryDetailsViewModel.fetchCategoryDetails(queryParam: selctedCategory)
+            }.refreshable {
+                await categoryDetailsViewModel.fetchCategoryDetails(queryParam: selctedCategory)
+            }
+          // */
+        }
     }
 }
 
-struct CategoryDetailsScreen_Previews: PreviewProvider {
+struct CategoryDetails_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryDetailsScreen()
+        CategoryDetailsScreen( selctedCategory: "management")
     }
 }
+

@@ -8,8 +8,51 @@
 import SwiftUI
 
 struct CategoryListScreen: View {
+    @StateObject var categoriesViewModel = CategoriesViewModelImplementation(
+        fetchCategoriesService: FetchCategoriesServiceImplementation()
+    )
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            NavigationView{
+                
+                // This is for the testing //
+                ///*
+                List((CategoriesModel.mockData.contents.categories!.map({$0.key}).sorted { $0 < $1 }), id: \.self){title in
+                    ZStack{
+                        NavigationLink(destination: CategoryDetailsScreen(selctedCategory: title)) {
+                        }
+                        CateoryRow(title: title)
+                    }
+                }
+                .navigationTitle(NSLocalizedString("category.list", comment: "Naviagation title, home screen"))
+                //*/
+                /*
+                 Group{
+                 
+                 if categoriesViewModel.error != nil {
+                 ErrorView()
+                 }  else if categoriesViewModel.categoryNames == nil {
+                 LoadingView(text: "Loading...")
+                 } else if categoriesViewModel.totalCategories == 0 {
+                 EmptyDataView()
+                 } else {
+                 List(categoriesViewModel.categoryNames!, id: \.self){title in
+                 ZStack{
+                 NavigationLink(destination: CategoryDetailsScreen(selctedCategory: title)) {
+                 }
+                 CateoryRow(title: title)
+                 }
+                 }.navigationTitle(LocalizedStringKey("category.list"))
+                 }
+                 }.task {
+                 await categoriesViewModel.fetchCategories()
+                 }.refreshable {
+                 await categoriesViewModel.fetchCategories()
+                 }
+                 */
+            }.navigationBarTitleDisplayMode(.large)
+        }
     }
 }
 

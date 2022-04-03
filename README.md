@@ -24,7 +24,7 @@ theysaidso.com) to randomly select a category from those available and retrieve 
 - When the user taps the Send button, the email is sent to the recipients.
 
 ## Screens 
-<img src = "images/home.png" width = "200" hight = "420"> <img src = "images/details.png" width = "200" hight = "420"><img src = "images/email.png" width = "200" hight = "420"><img src = "images/device-not-support.png" width = "200" hight = "420">
+<img src = "screenshot/home.png" width = "200" hight = "420"> <img src = "screenshot/details.png" width = "200" hight = "420"><img src = "screenshot/email.png" width = "200" hight = "420"><img src = "screenshot/device-not-support.png" width = "200" hight = "420">
 
 ## What you can find in this project
  ### Home screen :
@@ -37,11 +37,11 @@ theysaidso.com) to randomly select a category from those available and retrieve 
 
  ### Unit test : 
 - functional testing covered
-<img src = "images/unit-test.png" width = "300" hight = "420">
+<img src = "screenshot/unit-test.png" width = "300" hight = "420">
 - Automation UI testing - Not covered
 
 ## Project Folder structure
-<img src = "images/folderstructure.png" width = "300" hight = "420">
+<img src = "screenshot/folderstructure.png" width = "300" hight = "420">
 
 ## License
 Copyright tdmihiran@gmail.com,  Licensed under the MIT license.

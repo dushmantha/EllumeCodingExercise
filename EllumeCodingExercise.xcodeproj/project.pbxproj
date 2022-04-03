@@ -11,10 +11,22 @@
 		DD929C9927F99A490043E360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929C9827F99A490043E360 /* ContentView.swift */; };
 		DD929C9B27F99A4B0043E360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD929C9A27F99A4B0043E360 /* Assets.xcassets */; };
 		DD929C9E27F99A4B0043E360 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD929C9D27F99A4B0043E360 /* Preview Assets.xcassets */; };
-		DD929CA827F99A4B0043E360 /* EllumeCodingExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CA727F99A4B0043E360 /* EllumeCodingExerciseTests.swift */; };
 		DD929CB227F99A4B0043E360 /* EllumeCodingExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CB127F99A4B0043E360 /* EllumeCodingExerciseUITests.swift */; };
 		DD929CB427F99A4B0043E360 /* EllumeCodingExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CB327F99A4B0043E360 /* EllumeCodingExerciseUITestsLaunchTests.swift */; };
 		DD929CC327F99CAD0043E360 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DD929CC227F99CAD0043E360 /* README.md */; };
+		DD929CCA27F9A1AA0043E360 /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CC927F9A1AA0043E360 /* CategoriesModel.swift */; };
+		DD929CCB27F9A1AA0043E360 /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CC927F9A1AA0043E360 /* CategoriesModel.swift */; };
+		DD929CCD27F9A1BF0043E360 /* CategoryDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CCC27F9A1BF0043E360 /* CategoryDetailsModel.swift */; };
+		DD929CCE27F9A1BF0043E360 /* CategoryDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CCC27F9A1BF0043E360 /* CategoryDetailsModel.swift */; };
+		DD929CD127F9A3C40043E360 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CD027F9A3C40043E360 /* Router.swift */; };
+		DD929CD227F9A3C40043E360 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CD027F9A3C40043E360 /* Router.swift */; };
+		DD929CD427F9A4430043E360 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CD327F9A4430043E360 /* APIConstant.swift */; };
+		DD929CD527F9A4430043E360 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CD327F9A4430043E360 /* APIConstant.swift */; };
+		DD929CD727F9A4660043E360 /* FetchCategoriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CD627F9A4660043E360 /* FetchCategoriesService.swift */; };
+		DD929CD827F9A4660043E360 /* FetchCategoriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CD627F9A4660043E360 /* FetchCategoriesService.swift */; };
+		DD929CDA27F9A4810043E360 /* FetchCategoryDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CD927F9A4810043E360 /* FetchCategoryDetailsService.swift */; };
+		DD929CDB27F9A4810043E360 /* FetchCategoryDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CD927F9A4810043E360 /* FetchCategoryDetailsService.swift */; };
+		DD929CDE27F9A5CF0043E360 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CDD27F9A5CF0043E360 /* RouterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +53,18 @@
 		DD929C9A27F99A4B0043E360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD929C9D27F99A4B0043E360 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD929CA327F99A4B0043E360 /* EllumeCodingExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllumeCodingExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD929CA727F99A4B0043E360 /* EllumeCodingExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllumeCodingExerciseTests.swift; sourceTree = "<group>"; };
 		DD929CAD27F99A4B0043E360 /* EllumeCodingExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllumeCodingExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD929CB127F99A4B0043E360 /* EllumeCodingExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllumeCodingExerciseUITests.swift; sourceTree = "<group>"; };
 		DD929CB327F99A4B0043E360 /* EllumeCodingExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllumeCodingExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DD929CC227F99CAD0043E360 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD929CC927F9A1AA0043E360 /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
+		DD929CCC27F9A1BF0043E360 /* CategoryDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsModel.swift; sourceTree = "<group>"; };
+		DD929CD027F9A3C40043E360 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		DD929CD327F9A4430043E360 /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		DD929CD627F9A4660043E360 /* FetchCategoriesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCategoriesService.swift; sourceTree = "<group>"; };
+		DD929CD927F9A4810043E360 /* FetchCategoryDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCategoryDetailsService.swift; sourceTree = "<group>"; };
+		DD929CDC27F9A52B0043E360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DD929CDD27F9A5CF0043E360 /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +116,7 @@
 		DD929C9527F99A490043E360 /* EllumeCodingExercise */ = {
 			isa = PBXGroup;
 			children = (
+				DD929CDC27F9A52B0043E360 /* Info.plist */,
 				DD929CC127F99A7E0043E360 /* screens */,
 				DD929CC027F99A6F0043E360 /* viewModel */,
 				DD929CC527F99D0B0043E360 /* service */,
@@ -123,7 +143,7 @@
 		DD929CA627F99A4B0043E360 /* EllumeCodingExerciseTests */ = {
 			isa = PBXGroup;
 			children = (
-				DD929CA727F99A4B0043E360 /* EllumeCodingExerciseTests.swift */,
+				DD929CDD27F9A5CF0043E360 /* RouterTests.swift */,
 			);
 			path = EllumeCodingExerciseTests;
 			sourceTree = "<group>";
@@ -154,6 +174,8 @@
 		DD929CC427F99CBD0043E360 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				DD929CC927F9A1AA0043E360 /* CategoriesModel.swift */,
+				DD929CCC27F9A1BF0043E360 /* CategoryDetailsModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -161,6 +183,9 @@
 		DD929CC527F99D0B0043E360 /* service */ = {
 			isa = PBXGroup;
 			children = (
+				DD929CCF27F9A3800043E360 /* restClient */,
+				DD929CD627F9A4660043E360 /* FetchCategoriesService.swift */,
+				DD929CD927F9A4810043E360 /* FetchCategoryDetailsService.swift */,
 			);
 			path = service;
 			sourceTree = "<group>";
@@ -175,6 +200,7 @@
 		DD929CC727F99D340043E360 /* constants */ = {
 			isa = PBXGroup;
 			children = (
+				DD929CD327F9A4430043E360 /* APIConstant.swift */,
 			);
 			path = constants;
 			sourceTree = "<group>";
@@ -184,6 +210,14 @@
 			children = (
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		DD929CCF27F9A3800043E360 /* restClient */ = {
+			isa = PBXGroup;
+			children = (
+				DD929CD027F9A3C40043E360 /* Router.swift */,
+			);
+			path = restClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +351,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD929CCA27F9A1AA0043E360 /* CategoriesModel.swift in Sources */,
+				DD929CDA27F9A4810043E360 /* FetchCategoryDetailsService.swift in Sources */,
 				DD929C9927F99A490043E360 /* ContentView.swift in Sources */,
+				DD929CD727F9A4660043E360 /* FetchCategoriesService.swift in Sources */,
+				DD929CD427F9A4430043E360 /* APIConstant.swift in Sources */,
+				DD929CD127F9A3C40043E360 /* Router.swift in Sources */,
+				DD929CCD27F9A1BF0043E360 /* CategoryDetailsModel.swift in Sources */,
 				DD929C9727F99A490043E360 /* EllumeCodingExerciseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +366,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD929CA827F99A4B0043E360 /* EllumeCodingExerciseTests.swift in Sources */,
+				DD929CD827F9A4660043E360 /* FetchCategoriesService.swift in Sources */,
+				DD929CD227F9A3C40043E360 /* Router.swift in Sources */,
+				DD929CCB27F9A1AA0043E360 /* CategoriesModel.swift in Sources */,
+				DD929CD527F9A4430043E360 /* APIConstant.swift in Sources */,
+				DD929CCE27F9A1BF0043E360 /* CategoryDetailsModel.swift in Sources */,
+				DD929CDE27F9A5CF0043E360 /* RouterTests.swift in Sources */,
+				DD929CDB27F9A4810043E360 /* FetchCategoryDetailsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,9 +525,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EllumeCodingExercise/Preview Content\"";
-				DEVELOPMENT_TEAM = 6TTZDAAVUX;
+				DEVELOPMENT_TEAM = P9DE8EBRNY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EllumeCodingExercise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -508,9 +555,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EllumeCodingExercise/Preview Content\"";
-				DEVELOPMENT_TEAM = 6TTZDAAVUX;
+				DEVELOPMENT_TEAM = P9DE8EBRNY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EllumeCodingExercise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -536,7 +584,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6TTZDAAVUX;
+				DEVELOPMENT_TEAM = P9DE8EBRNY;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -556,7 +604,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6TTZDAAVUX;
+				DEVELOPMENT_TEAM = P9DE8EBRNY;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -575,7 +623,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6TTZDAAVUX;
+				DEVELOPMENT_TEAM = P9DE8EBRNY;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = buckshee.co.nz.EllumeCodingExerciseUITests;
@@ -593,7 +641,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6TTZDAAVUX;
+				DEVELOPMENT_TEAM = P9DE8EBRNY;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = buckshee.co.nz.EllumeCodingExerciseUITests;

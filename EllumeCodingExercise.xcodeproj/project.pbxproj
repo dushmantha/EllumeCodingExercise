@@ -27,6 +27,16 @@
 		DD929CDA27F9A4810043E360 /* FetchCategoryDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CD927F9A4810043E360 /* FetchCategoryDetailsService.swift */; };
 		DD929CDB27F9A4810043E360 /* FetchCategoryDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CD927F9A4810043E360 /* FetchCategoryDetailsService.swift */; };
 		DD929CDE27F9A5CF0043E360 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CDD27F9A5CF0043E360 /* RouterTests.swift */; };
+		DD929CE027F9AAB30043E360 /* CategoryListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CDF27F9AAB30043E360 /* CategoryListScreen.swift */; };
+		DD929CE127F9AAB30043E360 /* CategoryListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CDF27F9AAB30043E360 /* CategoryListScreen.swift */; };
+		DD929CE327F9AAC60043E360 /* CategoryDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CE227F9AAC60043E360 /* CategoryDetailsScreen.swift */; };
+		DD929CE427F9AAC60043E360 /* CategoryDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CE227F9AAC60043E360 /* CategoryDetailsScreen.swift */; };
+		DD929CE627F9AAD90043E360 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CE527F9AAD90043E360 /* CategoriesViewModel.swift */; };
+		DD929CE727F9AAD90043E360 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CE527F9AAD90043E360 /* CategoriesViewModel.swift */; };
+		DD929CE927F9AAE70043E360 /* CategoryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CE827F9AAE70043E360 /* CategoryDetailsViewModel.swift */; };
+		DD929CEA27F9AAE70043E360 /* CategoryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CE827F9AAE70043E360 /* CategoryDetailsViewModel.swift */; };
+		DD929CEC27F9ABE70043E360 /* CategoriesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CEB27F9ABE70043E360 /* CategoriesViewModelTests.swift */; };
+		DD929CEE27F9AC370043E360 /* CategoriesDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CED27F9AC370043E360 /* CategoriesDetailsViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +75,12 @@
 		DD929CD927F9A4810043E360 /* FetchCategoryDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCategoryDetailsService.swift; sourceTree = "<group>"; };
 		DD929CDC27F9A52B0043E360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DD929CDD27F9A5CF0043E360 /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
+		DD929CDF27F9AAB30043E360 /* CategoryListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListScreen.swift; sourceTree = "<group>"; };
+		DD929CE227F9AAC60043E360 /* CategoryDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsScreen.swift; sourceTree = "<group>"; };
+		DD929CE527F9AAD90043E360 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		DD929CE827F9AAE70043E360 /* CategoryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsViewModel.swift; sourceTree = "<group>"; };
+		DD929CEB27F9ABE70043E360 /* CategoriesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModelTests.swift; sourceTree = "<group>"; };
+		DD929CED27F9AC370043E360 /* CategoriesDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDetailsViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				DD929CDD27F9A5CF0043E360 /* RouterTests.swift */,
+				DD929CEB27F9ABE70043E360 /* CategoriesViewModelTests.swift */,
+				DD929CED27F9AC370043E360 /* CategoriesDetailsViewModelTests.swift */,
 			);
 			path = EllumeCodingExerciseTests;
 			sourceTree = "<group>";
@@ -160,6 +178,8 @@
 		DD929CC027F99A6F0043E360 /* viewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DD929CE527F9AAD90043E360 /* CategoriesViewModel.swift */,
+				DD929CE827F9AAE70043E360 /* CategoryDetailsViewModel.swift */,
 			);
 			path = viewModel;
 			sourceTree = "<group>";
@@ -167,6 +187,8 @@
 		DD929CC127F99A7E0043E360 /* screens */ = {
 			isa = PBXGroup;
 			children = (
+				DD929CDF27F9AAB30043E360 /* CategoryListScreen.swift */,
+				DD929CE227F9AAC60043E360 /* CategoryDetailsScreen.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -354,11 +376,15 @@
 				DD929CCA27F9A1AA0043E360 /* CategoriesModel.swift in Sources */,
 				DD929CDA27F9A4810043E360 /* FetchCategoryDetailsService.swift in Sources */,
 				DD929C9927F99A490043E360 /* ContentView.swift in Sources */,
+				DD929CE027F9AAB30043E360 /* CategoryListScreen.swift in Sources */,
 				DD929CD727F9A4660043E360 /* FetchCategoriesService.swift in Sources */,
+				DD929CE927F9AAE70043E360 /* CategoryDetailsViewModel.swift in Sources */,
 				DD929CD427F9A4430043E360 /* APIConstant.swift in Sources */,
 				DD929CD127F9A3C40043E360 /* Router.swift in Sources */,
 				DD929CCD27F9A1BF0043E360 /* CategoryDetailsModel.swift in Sources */,
+				DD929CE327F9AAC60043E360 /* CategoryDetailsScreen.swift in Sources */,
 				DD929C9727F99A490043E360 /* EllumeCodingExerciseApp.swift in Sources */,
+				DD929CE627F9AAD90043E360 /* CategoriesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,10 +394,16 @@
 			files = (
 				DD929CD827F9A4660043E360 /* FetchCategoriesService.swift in Sources */,
 				DD929CD227F9A3C40043E360 /* Router.swift in Sources */,
+				DD929CE727F9AAD90043E360 /* CategoriesViewModel.swift in Sources */,
+				DD929CEE27F9AC370043E360 /* CategoriesDetailsViewModelTests.swift in Sources */,
 				DD929CCB27F9A1AA0043E360 /* CategoriesModel.swift in Sources */,
 				DD929CD527F9A4430043E360 /* APIConstant.swift in Sources */,
 				DD929CCE27F9A1BF0043E360 /* CategoryDetailsModel.swift in Sources */,
+				DD929CEC27F9ABE70043E360 /* CategoriesViewModelTests.swift in Sources */,
+				DD929CE127F9AAB30043E360 /* CategoryListScreen.swift in Sources */,
 				DD929CDE27F9A5CF0043E360 /* RouterTests.swift in Sources */,
+				DD929CE427F9AAC60043E360 /* CategoryDetailsScreen.swift in Sources */,
+				DD929CEA27F9AAE70043E360 /* CategoryDetailsViewModel.swift in Sources */,
 				DD929CDB27F9A4810043E360 /* FetchCategoryDetailsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,7 @@ import SwiftUI
 struct CategoryDetailsRow: View {
     let quote: Quote
     @State private var showMailView = false
-
+    
     var body: some View {
         VStack{
             Text(quote.title).font(.title2) .frame(maxWidth: .infinity, alignment: .center).padding(.vertical)
@@ -21,12 +21,19 @@ struct CategoryDetailsRow: View {
             HStack{
                 Spacer()
                 Button(action: {
-                      showMailView.toggle()
-                    }) {
-                        Text(LocalizedStringKey("sendEmail.button")).bold()
+                    showMailView.toggle()
+                }) {
+                    Text(LocalizedStringKey("sendEmail.button")).bold()
+                }
+                .sheet(isPresented: $showMailView) {
+                    if EmailComposerView.canSendEmail() {
+                        EmailComposerView(emailData:  ComposeMailDataModel(subject: quote.title, recipients: [""], body: "\(quote.quote) \n\n Author: \(quote.author)")) { result in
+                            print(result)
+                        }
+                    } else {
+                        DeviceCannotSendEmailsView()
                     }
-                    .sheet(isPresented: $showMailView) {
-                    }
+                }
                 .buttonStyle(GrowingButton())
             }
         }

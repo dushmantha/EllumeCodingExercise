@@ -24,7 +24,7 @@ struct CategoriesModel: Decodable {
     enum CodingKeys: String, CodingKey {
         case success
         case contents
-       
+        
     }
 }
 
@@ -32,28 +32,28 @@ struct CategoriesModel: Decodable {
 extension CategoriesModel{
     // Mock data for preview.
     /*
-    {
-        "success": {
-            "total": 8
-        },
-        "contents": {
-            "categories": {
-                "inspire": "Inspiring Quote of the day",
-                "management": "Management Quote of the day",
-                "sports": "Sports Quote of the day",
-                "life": "Quote of the day about life",
-                "funny": "Funny Quote of the day",
-                "love": "Quote of the day about Love",
-                "art": "Art quote of the day ",
-                "students": "Quote of the day for students"
-            }
-        },
-        "baseurl": "https://theysaidso.com",
-        "copyright": {
-            "year": 2024,
-            "url": "https://theysaidso.com"
-        }
-    }
+     {
+     "success": {
+     "total": 8
+     },
+     "contents": {
+     "categories": {
+     "inspire": "Inspiring Quote of the day",
+     "management": "Management Quote of the day",
+     "sports": "Sports Quote of the day",
+     "life": "Quote of the day about life",
+     "funny": "Funny Quote of the day",
+     "love": "Quote of the day about Love",
+     "art": "Art quote of the day ",
+     "students": "Quote of the day for students"
+     }
+     },
+     "baseurl": "https://theysaidso.com",
+     "copyright": {
+     "year": 2024,
+     "url": "https://theysaidso.com"
+     }
+     }
      */
     static let mockData: CategoriesModel = {
         CategoriesModel(success: Success( total: 8), contents: CategoriesContents(categories: ["inspire": "Inspiring Quote of the day", "management": "Management Quote of the day","sports": "Sports Quote of the day","life": "Quote of the day about life", "funny": "Funny Quote of the day","love": "Quote of the day about Love","art": "Art quote of the day ","students": "Quote of the day for students"]))

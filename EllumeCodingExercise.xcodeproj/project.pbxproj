@@ -51,6 +51,16 @@
 		DD929D0027F9B67A0043E360 /* GrowingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CFE27F9B67A0043E360 /* GrowingButton.swift */; };
 		DD929D0227F9B6B10043E360 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929D0127F9B6B10043E360 /* Utils.swift */; };
 		DD929D0327F9B6B10043E360 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929D0127F9B6B10043E360 /* Utils.swift */; };
+		DD929D0527F9BE340043E360 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD929D0427F9BE330043E360 /* Localizable.strings */; };
+		DD929D0627F9BE340043E360 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD929D0427F9BE330043E360 /* Localizable.strings */; };
+		DD929D0827F9BE570043E360 /* EmailComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929D0727F9BE570043E360 /* EmailComposerView.swift */; };
+		DD929D0927F9BE570043E360 /* EmailComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929D0727F9BE570043E360 /* EmailComposerView.swift */; };
+		DD929D0B27F9BEA70043E360 /* DeviceCannotSendEmailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929D0A27F9BEA70043E360 /* DeviceCannotSendEmailsView.swift */; };
+		DD929D0C27F9BEA70043E360 /* DeviceCannotSendEmailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929D0A27F9BEA70043E360 /* DeviceCannotSendEmailsView.swift */; };
+		DD929D0E27F9BEEE0043E360 /* EmailComposerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929D0D27F9BEEE0043E360 /* EmailComposerResult.swift */; };
+		DD929D0F27F9BEEE0043E360 /* EmailComposerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929D0D27F9BEEE0043E360 /* EmailComposerResult.swift */; };
+		DD929D1127F9BF1F0043E360 /* ComposeMailDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929D1027F9BF1F0043E360 /* ComposeMailDataModel.swift */; };
+		DD929D1227F9BF1F0043E360 /* ComposeMailDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929D1027F9BF1F0043E360 /* ComposeMailDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +112,11 @@
 		DD929CFB27F9B6500043E360 /* CategoryDetailsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsRow.swift; sourceTree = "<group>"; };
 		DD929CFE27F9B67A0043E360 /* GrowingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingButton.swift; sourceTree = "<group>"; };
 		DD929D0127F9B6B10043E360 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DD929D0427F9BE330043E360 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		DD929D0727F9BE570043E360 /* EmailComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailComposerView.swift; sourceTree = "<group>"; };
+		DD929D0A27F9BEA70043E360 /* DeviceCannotSendEmailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCannotSendEmailsView.swift; sourceTree = "<group>"; };
+		DD929D0D27F9BEEE0043E360 /* EmailComposerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailComposerResult.swift; sourceTree = "<group>"; };
+		DD929D1027F9BF1F0043E360 /* ComposeMailDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeMailDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +147,7 @@
 		DD929C8A27F99A490043E360 = {
 			isa = PBXGroup;
 			children = (
+				DD929D0427F9BE330043E360 /* Localizable.strings */,
 				DD929CC227F99CAD0043E360 /* README.md */,
 				DD929C9527F99A490043E360 /* EllumeCodingExercise */,
 				DD929CA627F99A4B0043E360 /* EllumeCodingExerciseTests */,
@@ -219,6 +235,7 @@
 			children = (
 				DD929CC927F9A1AA0043E360 /* CategoriesModel.swift */,
 				DD929CCC27F9A1BF0043E360 /* CategoryDetailsModel.swift */,
+				DD929D1027F9BF1F0043E360 /* ComposeMailDataModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -245,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				DD929CD327F9A4430043E360 /* APIConstant.swift */,
+				DD929D0D27F9BEEE0043E360 /* EmailComposerResult.swift */,
 			);
 			path = constants;
 			sourceTree = "<group>";
@@ -258,6 +276,8 @@
 				DD929CF827F9B62A0043E360 /* EmptyDataView.swift */,
 				DD929CFB27F9B6500043E360 /* CategoryDetailsRow.swift */,
 				DD929CFE27F9B67A0043E360 /* GrowingButton.swift */,
+				DD929D0727F9BE570043E360 /* EmailComposerView.swift */,
+				DD929D0A27F9BEA70043E360 /* DeviceCannotSendEmailsView.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -375,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD929CC327F99CAD0043E360 /* README.md in Resources */,
+				DD929D0527F9BE340043E360 /* Localizable.strings in Resources */,
 				DD929C9E27F99A4B0043E360 /* Preview Assets.xcassets in Resources */,
 				DD929C9B27F99A4B0043E360 /* Assets.xcassets in Resources */,
 			);
@@ -384,6 +405,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD929D0627F9BE340043E360 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +425,7 @@
 			files = (
 				DD929CCA27F9A1AA0043E360 /* CategoriesModel.swift in Sources */,
 				DD929CDA27F9A4810043E360 /* FetchCategoryDetailsService.swift in Sources */,
+				DD929D0B27F9BEA70043E360 /* DeviceCannotSendEmailsView.swift in Sources */,
 				DD929CF927F9B62A0043E360 /* EmptyDataView.swift in Sources */,
 				DD929C9927F99A490043E360 /* ContentView.swift in Sources */,
 				DD929CE027F9AAB30043E360 /* CategoryListScreen.swift in Sources */,
@@ -417,9 +440,12 @@
 				DD929CCD27F9A1BF0043E360 /* CategoryDetailsModel.swift in Sources */,
 				DD929CE327F9AAC60043E360 /* CategoryDetailsScreen.swift in Sources */,
 				DD929CF327F9B5B30043E360 /* ErrorView.swift in Sources */,
+				DD929D1127F9BF1F0043E360 /* ComposeMailDataModel.swift in Sources */,
 				DD929C9727F99A490043E360 /* EllumeCodingExerciseApp.swift in Sources */,
+				DD929D0827F9BE570043E360 /* EmailComposerView.swift in Sources */,
 				DD929D0227F9B6B10043E360 /* Utils.swift in Sources */,
 				DD929CE627F9AAD90043E360 /* CategoriesViewModel.swift in Sources */,
+				DD929D0E27F9BEEE0043E360 /* EmailComposerResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,15 +460,19 @@
 				DD929CF127F9B5550043E360 /* CategoryRow.swift in Sources */,
 				DD929D0027F9B67A0043E360 /* GrowingButton.swift in Sources */,
 				DD929CF727F9B5EB0043E360 /* LoadingView.swift in Sources */,
+				DD929D0927F9BE570043E360 /* EmailComposerView.swift in Sources */,
 				DD929CCB27F9A1AA0043E360 /* CategoriesModel.swift in Sources */,
+				DD929D1227F9BF1F0043E360 /* ComposeMailDataModel.swift in Sources */,
 				DD929CFA27F9B62A0043E360 /* EmptyDataView.swift in Sources */,
 				DD929CD527F9A4430043E360 /* APIConstant.swift in Sources */,
 				DD929CCE27F9A1BF0043E360 /* CategoryDetailsModel.swift in Sources */,
+				DD929D0C27F9BEA70043E360 /* DeviceCannotSendEmailsView.swift in Sources */,
 				DD929CEC27F9ABE70043E360 /* CategoriesViewModelTests.swift in Sources */,
 				DD929CFD27F9B6500043E360 /* CategoryDetailsRow.swift in Sources */,
 				DD929CE127F9AAB30043E360 /* CategoryListScreen.swift in Sources */,
 				DD929CF427F9B5B30043E360 /* ErrorView.swift in Sources */,
 				DD929D0327F9B6B10043E360 /* Utils.swift in Sources */,
+				DD929D0F27F9BEEE0043E360 /* EmailComposerResult.swift in Sources */,
 				DD929CDE27F9A5CF0043E360 /* RouterTests.swift in Sources */,
 				DD929CE427F9AAC60043E360 /* CategoryDetailsScreen.swift in Sources */,
 				DD929CEA27F9AAE70043E360 /* CategoryDetailsViewModel.swift in Sources */,

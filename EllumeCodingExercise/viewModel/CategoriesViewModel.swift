@@ -23,9 +23,9 @@ extension CategoryListScreen{
         }
         
         /*
-          Mathod : Fetching categories - protocol
-          Params : nil
-          return : nil
+         Mathod : Fetching categories - protocol
+         Params : nil
+         return : nil
          */
         
         func fetchCategories() async  {

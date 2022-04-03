@@ -10,9 +10,9 @@ import Foundation
 struct Router {
     
     /*
-      Mathod : preparing url request for API call
-      Params : endPoint - last path componet of the base url, queryParam - appending params component of url
-      return : url request
+     Mathod : preparing url request for API call
+     Params : endPoint - last path componet of the base url, queryParam - appending params component of url
+     return : url request
      */
     
     func asURLRequest(endPoint : RelativePath, queryParam : String?) throws -> URLRequest{
@@ -29,11 +29,11 @@ struct Router {
             return urlRequest
         }
     }
-
+    
     /*
-      Mathod : fetching data from API
-      Params : endPoint - last path componet of the base url, queryParam - appending params component of url
-      return : fetch data
+     Mathod : fetching data from API
+     Params : endPoint - last path componet of the base url, queryParam - appending params component of url
+     return : fetch data
      */
     
     func fetch(endPoint : RelativePath, queryParam : String?) async throws->Data{

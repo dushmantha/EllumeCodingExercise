@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  EllumeCodingExercise
+
+  Created by Tharaka Dushmantha on 3/04/22.
+  
+*/
+
+
+"category.list" = "Category List";
+"network.error.title" = "Network Error";
+"network.error.description" = "Please check your netword connection and retry";
+"emptydata.title" = "Oops!";
+"emptydata.description" = "No data found";
+"author" = "Author";
+"sendEmail.button" = "Send e-mail";
+"deviceCannotSendEmail.title" = "Unable to send emails from this device.";
+"deviceCannotSendEmail.button" = "Dismiss";
+
+// Mail composer result
+"cancelled" = "Cancelled";
+"saved" = "Saved";
+"sent" = "Sent";
+"failed" = "Failed";
+"deviceNotSupport" = "Unable to send emails from this device.";
+

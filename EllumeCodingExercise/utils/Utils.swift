@@ -9,9 +9,9 @@ import Foundation
 
 // this method can be used for styling and combine the string
 /*
-  Mathod : create a attribute string
-  Params : title - value of the string , label - description of the value
-  return : attribute string
+ Mathod : create a attribute string
+ Params : title - value of the string , label - description of the value
+ return : attribute string
  */
 func createAttributedString(title : String, label : String)-> AttributedString{
     var string = AttributedString("\(title): \(label)")

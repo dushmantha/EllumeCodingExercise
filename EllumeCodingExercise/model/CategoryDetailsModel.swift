@@ -39,35 +39,35 @@ struct CategoryDetailsModel: Decodable {
 extension CategoryDetailsModel{
     /*
      {
-         "success": {
-             "total": 1
-         },
-         "contents": {
-             "quotes": [
-                 {
-                     "quote": "True art is characterized by an irresistible urge in the creative artist.",
-                     "length": "73",
-                     "author": "Albert Einstein",
-                     "tags": {
-                         "0": "art",
-                         "1": "artist",
-                         "3": "urge"
-                     },
-                     "category": "art",
-                     "language": "en",
-                     "date": "2022-04-03",
-                     "permalink": "https://theysaidso.com/quote/albert-einstein-true-art-is-characterized-by-an-irresistible-urge-in-the-creativ",
-                     "id": "tZhnMD_d4Lwoh3EaUJvP_AeF",
-                     "background": "https://theysaidso.com/img/qod/qod-art.jpg",
-                     "title": "Art quote of the day "
-                 }
-             ]
-         },
-         "baseurl": "https://theysaidso.com",
-         "copyright": {
-             "year": 2024,
-             "url": "https://theysaidso.com"
-         }
+     "success": {
+     "total": 1
+     },
+     "contents": {
+     "quotes": [
+     {
+     "quote": "True art is characterized by an irresistible urge in the creative artist.",
+     "length": "73",
+     "author": "Albert Einstein",
+     "tags": {
+     "0": "art",
+     "1": "artist",
+     "3": "urge"
+     },
+     "category": "art",
+     "language": "en",
+     "date": "2022-04-03",
+     "permalink": "https://theysaidso.com/quote/albert-einstein-true-art-is-characterized-by-an-irresistible-urge-in-the-creativ",
+     "id": "tZhnMD_d4Lwoh3EaUJvP_AeF",
+     "background": "https://theysaidso.com/img/qod/qod-art.jpg",
+     "title": "Art quote of the day "
+     }
+     ]
+     },
+     "baseurl": "https://theysaidso.com",
+     "copyright": {
+     "year": 2024,
+     "url": "https://theysaidso.com"
+     }
      }
      */
     // Dummy data for preview.

@@ -27,9 +27,9 @@ extension CategoryDetailsScreen{
         }
         
         /*
-          Mathod : Fetching category details - protocol
-          Params : QueryParam is a category name
-          return : nil
+         Mathod : Fetching category details - protocol
+         Params : QueryParam is a category name
+         return : nil
          */
         func fetchCategoryDetails(queryParam : String) async  {
             do{

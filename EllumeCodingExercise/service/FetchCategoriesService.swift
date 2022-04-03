@@ -15,9 +15,9 @@ struct FetchCategoriesServiceImplementation : FetchCategoriesService {
     let router  = Router()
     
     /*
-      Mathod : fetching categories
-      Params : nil
-      return : Data decode from categories data response
+     Mathod : fetching categories
+     Params : nil
+     return : Data decode from categories data response
      */
     func fetchCategories() async throws -> CategoriesModel {
         guard let decodedResponse = try? await JSONDecoder().decode(CategoriesModel.self, from: router.fetch(endPoint: .categories, queryParam: nil))

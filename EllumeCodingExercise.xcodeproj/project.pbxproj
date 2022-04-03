@@ -14,6 +14,7 @@
 		DD929CA827F99A4B0043E360 /* EllumeCodingExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CA727F99A4B0043E360 /* EllumeCodingExerciseTests.swift */; };
 		DD929CB227F99A4B0043E360 /* EllumeCodingExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CB127F99A4B0043E360 /* EllumeCodingExerciseUITests.swift */; };
 		DD929CB427F99A4B0043E360 /* EllumeCodingExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929CB327F99A4B0043E360 /* EllumeCodingExerciseUITestsLaunchTests.swift */; };
+		DD929CC327F99CAD0043E360 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DD929CC227F99CAD0043E360 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DD929CAD27F99A4B0043E360 /* EllumeCodingExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllumeCodingExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD929CB127F99A4B0043E360 /* EllumeCodingExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllumeCodingExerciseUITests.swift; sourceTree = "<group>"; };
 		DD929CB327F99A4B0043E360 /* EllumeCodingExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllumeCodingExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD929CC227F99CAD0043E360 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		DD929C8A27F99A490043E360 = {
 			isa = PBXGroup;
 			children = (
+				DD929CC227F99CAD0043E360 /* README.md */,
 				DD929C9527F99A490043E360 /* EllumeCodingExercise */,
 				DD929CA627F99A4B0043E360 /* EllumeCodingExerciseTests */,
 				DD929CB027F99A4B0043E360 /* EllumeCodingExerciseUITests */,
@@ -94,6 +97,13 @@
 		DD929C9527F99A490043E360 /* EllumeCodingExercise */ = {
 			isa = PBXGroup;
 			children = (
+				DD929CC127F99A7E0043E360 /* screens */,
+				DD929CC027F99A6F0043E360 /* viewModel */,
+				DD929CC527F99D0B0043E360 /* service */,
+				DD929CC427F99CBD0043E360 /* model */,
+				DD929CC627F99D250043E360 /* utils */,
+				DD929CC727F99D340043E360 /* constants */,
+				DD929CC827F99D430043E360 /* components */,
 				DD929C9627F99A490043E360 /* EllumeCodingExerciseApp.swift */,
 				DD929C9827F99A490043E360 /* ContentView.swift */,
 				DD929C9A27F99A4B0043E360 /* Assets.xcassets */,
@@ -125,6 +135,55 @@
 				DD929CB327F99A4B0043E360 /* EllumeCodingExerciseUITestsLaunchTests.swift */,
 			);
 			path = EllumeCodingExerciseUITests;
+			sourceTree = "<group>";
+		};
+		DD929CC027F99A6F0043E360 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		DD929CC127F99A7E0043E360 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		DD929CC427F99CBD0043E360 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DD929CC527F99D0B0043E360 /* service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		DD929CC627F99D250043E360 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		DD929CC727F99D340043E360 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		DD929CC827F99D430043E360 /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD929CC327F99CAD0043E360 /* README.md in Resources */,
 				DD929C9E27F99A4B0043E360 /* Preview Assets.xcassets in Resources */,
 				DD929C9B27F99A4B0043E360 /* Assets.xcassets in Resources */,
 			);

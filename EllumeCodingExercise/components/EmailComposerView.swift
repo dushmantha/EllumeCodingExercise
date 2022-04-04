@@ -44,9 +44,9 @@ struct EmailComposerView: UIViewControllerRepresentable {
         }
         
         func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
-            
-            if let error = error {
-                parent.result(.failure(error))
+
+            guard error == nil else {
+                parent.result(.failure(error!))
                 return
             }
             parent.result(.success((.init(rawValue: result.rawValue)!)))

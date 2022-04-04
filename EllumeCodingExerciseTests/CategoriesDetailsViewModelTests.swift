@@ -61,8 +61,8 @@ class CategoriesDetailsViewModelTests: XCTestCase {
     
     @MainActor  func testErrorCategory() async throws {
         await errorViewModel.fetchCategoryDetails(queryParam: "art")
-        XCTAssertNil(errorViewModel.quotes, "Category names do not update from API value")
-        XCTAssertNil(errorViewModel.totalQuotes, "Total category does not update from API value")
+        XCTAssertNil(errorViewModel.quotes, "Quotes do not update from API value")
+        XCTAssertNil(errorViewModel.totalQuotes, "Total quotes does not update from API value")
         XCTAssertTrue(errorViewModel.error != nil)
     }
 

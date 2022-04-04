@@ -39,10 +39,10 @@ theysaidso.com) to randomly select a category from those available and retrieve 
 - Quote
 - Author Name
 
- ### Unit test : 
+ ### Unit test : covered(60.5%)
 - functional testing covered
-<img src = "screenshot/unit-test.png" width = "300" hight = "420">
-- Automation UI testing - Not covered
+<img src = "screenshot/unit-test.png" width = "700" hight = "650">
+- Automation UI testing - covered(20%)
 
 ## Project Folder structure
 <img src = "screenshot/folderstructure.png" width = "300" hight = "420">

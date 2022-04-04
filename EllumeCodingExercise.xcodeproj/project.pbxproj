@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD26BD9927FAA21D00681485 /* EmailComposerViewTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD26BD9827FAA21D00681485 /* EmailComposerViewTestsUITests.swift */; };
 		DD929C9727F99A490043E360 /* EllumeCodingExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929C9627F99A490043E360 /* EllumeCodingExerciseApp.swift */; };
 		DD929C9927F99A490043E360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD929C9827F99A490043E360 /* ContentView.swift */; };
 		DD929C9B27F99A4B0043E360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD929C9A27F99A4B0043E360 /* Assets.xcassets */; };
@@ -81,6 +82,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD26BD9827FAA21D00681485 /* EmailComposerViewTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailComposerViewTestsUITests.swift; sourceTree = "<group>"; };
 		DD929C9327F99A490043E360 /* EllumeCodingExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EllumeCodingExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD929C9627F99A490043E360 /* EllumeCodingExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllumeCodingExerciseApp.swift; sourceTree = "<group>"; };
 		DD929C9827F99A490043E360 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				DD929CB127F99A4B0043E360 /* EllumeCodingExerciseUITests.swift */,
+				DD26BD9827FAA21D00681485 /* EmailComposerViewTestsUITests.swift */,
 				DD929CB327F99A4B0043E360 /* EllumeCodingExerciseUITestsLaunchTests.swift */,
 			);
 			path = EllumeCodingExerciseUITests;
@@ -484,6 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD26BD9927FAA21D00681485 /* EmailComposerViewTestsUITests.swift in Sources */,
 				DD929CB427F99A4B0043E360 /* EllumeCodingExerciseUITestsLaunchTests.swift in Sources */,
 				DD929CB227F99A4B0043E360 /* EllumeCodingExerciseUITests.swift in Sources */,
 			);

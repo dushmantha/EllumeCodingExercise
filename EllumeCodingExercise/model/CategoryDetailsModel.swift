@@ -72,7 +72,7 @@ extension CategoryDetailsModel{
      */
     // Dummy data for preview.
     static let mockData: CategoryDetailsModel = {
-        CategoryDetailsModel( success: Success( total: 1),contents: ContentsQuotes(quotes: [Quote(id: "tZhnMD_d4Lwoh3EaUJvP_AeF", title: "Art quote of the day ", quote: "True art is characterized by an irresistible urge in the creative artist.", length: "73", author: "Albert Einstein", category: "art", language: "en", date: "2022-04-03", permalink: "https://theysaidso.com/quote/albert-einstein-true-art-is-characterized-by-an-irresistible-urge-in-the-creativ", background: "https://theysaidso.com/img/qod/qod-art.jpg")]))}()
+        CategoryDetailsModel( success: Success( total: 1),contents: ContentsQuotes(quotes: [Quote(id: "tZhnMD_d4Lwoh3EaUJvP_AeF", title: "Art quote of the day ", quote: "True art is characterized", length: "73", author: "Albert Einstein", category: "art", language: "en", date: "2022-04-03", permalink: "https://theysaidso.com/quote/albert-einstein-true-art-is-characterized-by-an-irresistible-urge-in-the-creativ", background: "https://theysaidso.com/img/qod/qod-art.jpg")]))}()
     
     static let emptyData: CategoryDetailsModel = {CategoryDetailsModel(success:  Success( total: 0), contents: ContentsQuotes(quotes: nil))}()
 }

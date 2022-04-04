@@ -4,6 +4,10 @@
 ## SwiftUI-MVVM
 A project that uses SwiftUI and swift 5.5, MVVM for software architecture.
 
+## New swift(swift 5.5) features used
+- Async/await
+- Actors(@MainActor)
+
 ## Compatibility
 - Xcode 13.2
 - iOS 15 and later

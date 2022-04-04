@@ -16,6 +16,7 @@
 "sendEmail.button" = "Send e-mail";
 "deviceCannotSendEmail.title" = "Unable to send emails from this device.";
 "deviceCannotSendEmail.button" = "Dismiss";
+"loading" = "Loading...";
 
 // Mail composer result
 "cancelled" = "Cancelled";

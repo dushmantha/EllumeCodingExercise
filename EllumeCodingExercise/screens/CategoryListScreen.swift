@@ -26,14 +26,14 @@ struct CategoryListScreen: View {
                     }
                 }
                 .navigationTitle(NSLocalizedString("category.list", comment: "Naviagation title, home screen"))
-                //*/
+                // */
                 /*
                  Group{
                  
                  if categoriesViewModel.error != nil {
                  ErrorView()
-                 }  else if categoriesViewModel.categoryNames == nil {
-                 LoadingView(text: "Loading...")
+                 }  else if categoriesViewModel.categoryNames == nil && categoriesViewModel.totalCategories == nil{
+                 LoadingView(text: NSLocalizedString("loading", comment: "loading data from api"))
                  } else if categoriesViewModel.totalCategories == 0 {
                  EmptyDataView()
                  } else {

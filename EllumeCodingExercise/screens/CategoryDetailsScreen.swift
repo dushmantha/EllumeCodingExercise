@@ -16,32 +16,32 @@ struct CategoryDetailsScreen: View {
     
     var body: some View {
         VStack{
-            /*
-             // This is for testing
-             List(CategoryDetailsModel.dummyData.contents.quotes, id: \.self){ quote in
-             CategoryDetailsRow(quote: quote)
-             } .navigationTitle(selctedCategory)
-             */
+            // /*
+            // This is for testing
+            List(CategoryDetailsModel.mockData.contents.quotes!, id: \.self){ quote in
+                CategoryDetailsRow(quote: quote)
+            } .navigationTitle(selctedCategory)
+            //*/
             
-            //  /*
-            Group{
-                if categoryDetailsViewModel.error != nil {
-                    ErrorView()
-                }  else if categoryDetailsViewModel.quotes == nil {
-                    LoadingView(text: "Loading...")
-                } else if categoryDetailsViewModel.totalQuotes == 0 {
-                    EmptyDataView()
-                } else {
-                    List(categoryDetailsViewModel.quotes!, id: \.self){quote in
-                        CategoryDetailsRow(quote: quote)
-                    }
-                }
-            }.task {
-                await categoryDetailsViewModel.fetchCategoryDetails(queryParam: selctedCategory)
-            }.refreshable {
-                await categoryDetailsViewModel.fetchCategoryDetails(queryParam: selctedCategory)
-            }
-            // */
+            /*
+             Group{
+             if categoryDetailsViewModel.error != nil {
+             ErrorView()
+             }  else if categoryDetailsViewModel.quotes == nil && categoryDetailsViewModel.totalQuotes == nil {
+             LoadingView(text: NSLocalizedString("loading", comment: "loading data from api"))
+             } else if categoryDetailsViewModel.totalQuotes == 0 {
+             EmptyDataView()
+             } else {
+             List(categoryDetailsViewModel.quotes!, id: \.self){quote in
+             CategoryDetailsRow(quote: quote)
+             }
+             }
+             }.task {
+             await categoryDetailsViewModel.fetchCategoryDetails(queryParam: selctedCategory)
+             }.refreshable {
+             await categoryDetailsViewModel.fetchCategoryDetails(queryParam: selctedCategory)
+             }
+             */
         }
     }
 }

@@ -16,7 +16,7 @@ struct CategoryDetailsRow: View {
             Text(quote.title).font(.title2) .frame(maxWidth: .infinity, alignment: .center).padding(.vertical)
             Text(quote.quote).font(.body) .frame(maxWidth: .infinity, alignment: .leading).padding(.vertical)
             HStack{
-                Text(createAttributedString(title: "Author", label: quote.author))
+                Text(createAttributedString(title: NSLocalizedString("author", comment: "Author label"), label: quote.author))
             }.frame(maxWidth: .infinity, alignment: .leading).padding(.vertical)
             HStack{
                 Spacer()
@@ -27,7 +27,7 @@ struct CategoryDetailsRow: View {
                 }
                 .sheet(isPresented: $showMailView) {
                     if EmailComposerView.canSendEmail() {
-                        EmailComposerView(emailData:  ComposeMailDataModel(subject: quote.title, recipients: [""], body: "\(quote.quote) \n\n Author: \(quote.author)")) { result in
+                        EmailComposerView(emailData:  ComposeMailDataModel(subject: quote.title, recipients: [""], body: "\(quote.quote) \n\n \(NSLocalizedString("author", comment: "Author label")) \(quote.author)")) { result in
                             print(result)
                         }
                     } else {

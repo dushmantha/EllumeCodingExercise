@@ -16,14 +16,14 @@ struct CategoryDetailsScreen: View {
     
     var body: some View {
         VStack{
-            // /*
+             /*
             // This is for testing
             List(CategoryDetailsModel.mockData.contents.quotes!, id: \.self){ quote in
                 CategoryDetailsRow(quote: quote)
             } .navigationTitle(selctedCategory)
-            //*/
+            */
             
-            /*
+            ///*
              Group{
              if categoryDetailsViewModel.error != nil {
              ErrorView()
@@ -41,7 +41,7 @@ struct CategoryDetailsScreen: View {
              }.refreshable {
              await categoryDetailsViewModel.fetchCategoryDetails(queryParam: selctedCategory)
              }
-             */
+             //*/
         }
     }
 }

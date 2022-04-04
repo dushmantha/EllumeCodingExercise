@@ -17,7 +17,7 @@ struct CategoryListScreen: View {
             NavigationView{
                 
                 // This is for the testing //
-                ///*
+                /*
                 List((CategoriesModel.mockData.contents.categories!.map({$0.key}).sorted { $0 < $1 }), id: \.self){title in
                     ZStack{
                         NavigationLink(destination: CategoryDetailsScreen(selctedCategory: title)) {
@@ -26,8 +26,8 @@ struct CategoryListScreen: View {
                     }
                 }
                 .navigationTitle(NSLocalizedString("category.list", comment: "Naviagation title, home screen"))
-                // */
-                /*
+                */
+                ///*
                  Group{
                  
                  if categoriesViewModel.error != nil {
@@ -50,7 +50,7 @@ struct CategoryListScreen: View {
                  }.refreshable {
                  await categoriesViewModel.fetchCategories()
                  }
-                 */
+                 //*/
             }.navigationBarTitleDisplayMode(.large)
         }
     }
